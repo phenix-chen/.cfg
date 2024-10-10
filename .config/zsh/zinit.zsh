@@ -1,3 +1,6 @@
+# https://zdharma-continuum.github.io/zinit/wiki/INTRODUCTION/
+# https://github.com/zdharma-continuum/zinit
+
 ### Added by Zinit's installer
 if [[ ! -f $HOME/.local/share/zinit/zinit.git/zinit.zsh ]]; then
     print -P "%F{33} %F{220}Installing %F{33}ZDHARMA-CONTINUUM%F{220} Initiative Plugin Manager (%F{33}zdharma-continuum/zinit%F{220})…%f"
@@ -20,23 +23,26 @@ zinit light-mode for \
     zdharma-continuum/zinit-annex-rust
 
 ### End of Zinit's installer chunk
-#
 
+# load oh-my-zsh plugins --find plugins in https://github.com/ohmyzsh/ohmyzsh/tree/master/lib
 zinit snippet OMZ::plugins/command-not-found
 zinit snippet OMZ::plugins/conda
-# zinit snippet OMZ::plugins/256color
 zinit snippet OMZ::plugins/pip
 zinit snippet OMZ::plugins/fzf
 zinit snippet OMZ::plugins/timer
 zinit snippet OMZ::plugins/themes
 # zinit snippet OMZ::plugins/docker
 # zinit snippet OMZ::plugins/docker-compose
-zinit snippet OMZ::plugins/vi-mode
+# zinit snippet OMZ::plugins/vi-mode
 zinit snippet OMZ::plugins/sudo
+
+# load oh-my-zsh library --find libraries in https://github.com/ohmyzsh/ohmyzsh/tree/master/lib
+zinit snippet OMZL::theme-and-appearance.zsh
+zinit snippet OMZL::clipboard.zsh
+zinit snippet OMZL::history.zsh
+
+# load plugins or theme from github
 zinit load zsh-users/zsh-autosuggestions
 zinit load zsh-users/zsh-completions
 zinit load zsh-users/zsh-syntax-highlighting
 zinit load dracula/zsh
-
-zinit snippet OMZL::theme-and-appearance.zsh
-zinit snippet OMZL::clipboard.zsh
