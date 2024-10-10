@@ -24,4 +24,9 @@ export _ZO_ECHO=1
 export NVM_DIR="$HOME/.config/nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 
+# atuin
 eval "$(atuin init zsh)"
+
+# nnn
+export NNN_PLUG='g:!git status'
+# export NNN_PLUG='o:fzopen;m:nmount;x:!chmod +x $nnn'
