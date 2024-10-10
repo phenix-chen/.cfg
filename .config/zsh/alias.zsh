@@ -27,3 +27,6 @@ alias lg=lazygit
 alias dl=trash-put
 alias start_work="open -g hammerspoon://develop_env"
 alias stop_work="open -g hammerspoon://stop_work"
+
+# cfg dotfiles [How to Store Dotfiles - A Bare Git Repository | Atlassian Git Tutorial](https://www.atlassian.com/git/tutorials/dotfiles)
+alias cfg='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
