@@ -1,1 +1,1 @@
-export ZDOTDIR=/home/chen/.config/zsh
+export ZDOTDIR=/home/$(whoami)/.config/zsh
