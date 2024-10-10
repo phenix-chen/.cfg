@@ -10,7 +10,7 @@ antigen use oh-my-zsh
 # antigen bundle fzf
 # antigen bundle osx
 # antigen bundle color
-# antigen bundle timer
+antigen bundle timer
 # antigen bundle themes
 # antigen bundle docker
 # antigen bundle docker-compose
@@ -30,6 +30,6 @@ antigen use oh-my-zsh
 # THEME=ys
 # THEME=romkatv/powerlevel10k
 # THEME=denysdovhan/spaceship-prompt
-# THEME=dracula/zsh
+THEME=dracula/zsh
 antigen list | grep $THEME; if [ $? -ne 0 ]; then antigen theme $THEME; fi
 antigen apply
