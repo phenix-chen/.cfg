@@ -13,5 +13,3 @@ fi;
 config checkout
 config config status.showUntrackedFiles no
 
-# 修改默认shell
-sudo chsh -s /usr/bin/zsh

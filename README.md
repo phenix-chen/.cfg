@@ -22,5 +22,10 @@ curl -Lks https://raw.githubusercontent.com/phenix-chen/.cfg/refs/heads/master/a
 curl -Lks https://raw.githubusercontent.com/phenix-chen/.cfg/refs/heads/master/cfg-install | /bin/bash
 ```
 
+## 修改默认shell
+```
+sudo chsh -s /usr/bin/zsh
+```
+
 ## Neovim 安装插件
 open neovim, and run command: :PlugInstall
