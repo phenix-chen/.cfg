@@ -7,7 +7,9 @@ sudo apt install -y \
     zsh \
     gh \
     fzf \
+    btop \ # https://github.com/aristocratos/btop | https://mp.weixin.qq.com/s/Qr-z0-zL44UjnItmDlsMzg
     ripgrep  # https://github.com/BurntSushi/ripgrep
+
 
 # install zoxide https://github.com/ajeetdsouza/zoxide
 curl -sSfL https://raw.githubusercontent.com/ajeetdsouza/zoxide/main/install.sh | sh
