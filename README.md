@@ -29,3 +29,14 @@ sudo chsh -s /usr/bin/zsh
 
 ## Neovim 安装插件
 open neovim, and run command: :PlugInstall
+
+## 添加自定义脚本
+1. 写脚本
+2. `chmod +x script.sh`
+3. 自定义脚本的路径：`~\bin\`
+
+
+## Ref.
+ 
+- [How to Store Dotfiles - A Bare Git Repository | Atlassian Git Tutorial](https://www.atlassian.com/git/tutorials/dotfiles)
+
