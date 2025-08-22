@@ -237,9 +237,6 @@ nmap <c-e> $
 inoremap <c-a> <esc>I
 inoremap <c-e> <esc>A
 
-nmap u <c-u>
-nmap e <c-d>
-nmap z <undo>
 
 " Remap line motion commands
 noremap k gk
