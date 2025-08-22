@@ -21,7 +21,7 @@
 	helper = store
 [diff]
 	submodule = log
-	tool = vimdiff
+	tool = nvimdiff
 [core]
 	editor = code
 [https "github.com"]

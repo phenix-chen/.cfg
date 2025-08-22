@@ -6,6 +6,7 @@ alias sozsh="source ~/.config/zsh/.zshrc"
 alias vimconfig="nv ~/.config/nvim/init.vim"
 alias vim="nvim"
 alias nv="nvim"
+alias nvimdiff="nvim -d"
 
 # usb drive
 alias ejectusb="diskutil unmount /Volumes/CHEN"
