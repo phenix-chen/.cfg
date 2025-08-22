@@ -5,13 +5,26 @@
 	email = c252156290@gmail.com
 	name = chen
 [alias]
+	acp = !git add -A && git commit -m \"auto commit\" && git push
+	b = branch
 	co = checkout
     ci = commit
+	d = diff
+	m = mearge
+	p = push
     st = status
     last = log -1 HEAD
 	logl = log --oneline --graph --all
-
+[push]
+    autoSetupRemote = true
 [credential]
 	helper = store
 [diff]
 	submodule = log
+	tool = vimdiff
+[core]
+	editor = code
+[https "github.com"]
+	proxy = socks5://127.0.0.1:7890
+[difftool]
+	prompt = false
