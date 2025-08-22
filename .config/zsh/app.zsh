@@ -8,7 +8,7 @@
 # export FZF_DEFAULT_OPTS=''
 # export FZF_DEFAULT_COMMAND='fd'
 # export FZF_COMPLETION_TRIGGER='\'
-
+#
 # pyenv
 # if command -v pyenv 1>/dev/null 2>&1; then
 #     eval "$(pyenv init - --no-rehash)"
@@ -25,8 +25,11 @@ export NVM_DIR="$HOME/.config/nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 
 # atuin
-eval "$(atuin init zsh)"
+# eval "$(atuin init zsh)"
 
 # nnn
-export NNN_PLUG='g:!git status'
+# export NNN_PLUG='g:!git status'
 # export NNN_PLUG='o:fzopen;m:nmount;x:!chmod +x $nnn'
+
+# copilot
+eval "$(gh copilot alias -- zsh)"
