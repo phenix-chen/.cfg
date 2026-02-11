@@ -24,7 +24,15 @@
 	tool = nvimdiff
 [core]
 	editor = code
+	pager = delta
 [https "github.com"]
 	proxy = socks5://127.0.0.1:7890
 [difftool]
 	prompt = false
+[interactive]
+	diffFilter = delta --color-only
+[delta]
+	navigate = true
+    side-by-side = true
+[merge]
+	conflictStyle = zdiff3
