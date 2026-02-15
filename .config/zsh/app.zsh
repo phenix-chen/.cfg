@@ -31,8 +31,6 @@ export NVM_DIR="$HOME/.config/nvm"
 # export NNN_PLUG='g:!git status'
 # export NNN_PLUG='o:fzopen;m:nmount;x:!chmod +x $nnn'
 
-# copilot
-eval "$(gh copilot alias -- zsh)"
 
 #yazi
 function y() {
