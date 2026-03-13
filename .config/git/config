@@ -25,6 +25,7 @@
 [core]
 	editor = code
 	pager = delta
+	quotepath = false
 [https "github.com"]
 	proxy = socks5://127.0.0.1:7890
 [difftool]

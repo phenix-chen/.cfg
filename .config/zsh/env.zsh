@@ -14,6 +14,7 @@ export XDG_CACHE_HOME="$HOME/.cache"
 export XDG_DATA_HOME="$HOME/.local/share"
 export HISTFILE="$XDG_DATA_HOME"/zsh/history
 export PATH="$HOME/bin:$PATH"
+export PATH="/Applications/Obsidian.app/Contents/MacOS:$PATH"
 # pip user base
 # export PATH="$HOME/.local/:$PATH"
 
@@ -28,3 +29,4 @@ export CHROME_PATH="/Applications/Google Chrome.app/Contents/MacOS/Google Chrome
 
 # rust
 . "$HOME/.cargo/env"
+
