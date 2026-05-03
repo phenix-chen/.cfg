@@ -14,11 +14,12 @@ if [[ "$computer_name" == "mac-air" ]]; then
     "$HOME/.claude/skills"
     "$HOME/.gemini/antigravity/skills"
     "$HOME/.openclaw/workspace/skills"
-    "/Users/chen/Library/Mobile Documents/iCloud~md~obsidian/Documents/chen"
+    # "/Users/chen/Library/Mobile Documents/iCloud~md~obsidian/Documents/chen"
+    "/Users/chen/Downloads/ob"
   )
 
   echo -e "\033[32m=== Checking repos on mac-claw ===\033[0m"
-  ssh chen@192.168.5.62 "~/bin/check-repos.sh"
+  # ssh chen@192.168.5.62 "~/bin/check-repos.sh"
   echo ""
   echo -e "\033[32m=== Checking repos on mac-air ===\033[0m"
 
